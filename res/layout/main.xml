@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView
+	android:id="@+id/tv_lectura"  
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Lectura: "
+    android:textSize="20dp"
+    />
+    
+    <EditText 
+    android:id="@+id/et_texto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    />
+    
+    <Button
+    android:id="@+id/btn_guardar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Guardar"
+    android:onClick="guardar"
+    />
+    
+    <Button
+    android:id="@+id/btn_leer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Leer"
+    android:onClick="leer"
+    />
+    
+    <Button
+    android:id="@+id/btn_borrar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Borrar"
+    android:onClick="borrar"
+    />
+    
+</LinearLayout>
